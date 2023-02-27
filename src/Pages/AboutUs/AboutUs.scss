@@ -1,0 +1,58 @@
+.aboutUs {
+  background: #181a1f;
+  position: relative;
+  &-title {
+    text-align: center;
+    color: #fd3c3d;
+    font-size: 60px;
+  }
+
+  &-content {
+    margin: 40px 0;
+    padding: 0 0 40px 0;
+    color: #a9a9a9;
+    width: 50%;
+    ul {
+      padding: 0;
+      .photo-customer {
+        list-style: none;
+        background-image: url("https://vtcoder-html4.surge.sh/images/feature1.png");
+        background-repeat: no-repeat;
+        padding-left: 15%;
+        h3 {
+          color: #fd3c3d;
+        }
+      }
+      .photo-insurance {
+        list-style: none;
+        background-image: url("https://vtcoder-html4.surge.sh/images/feature3.png");
+        background-repeat: no-repeat;
+        padding-left: 15%;
+        h3 {
+          color: #fd3c3d;
+        }
+      }
+      .photo-personal-coach {
+        list-style: none;
+        background-image: url("https://vtcoder-html4.surge.sh/images/feature2.png");
+        background-repeat: no-repeat;
+        padding-left: 15%;
+        h3 {
+          color: #fd3c3d;
+        }
+      }
+    }
+  }
+
+  .photo-gymer {
+    position: absolute;
+    right: 0;
+    top: 41%;
+    width: 36%;
+    overflow: hidden;
+    height: 22.6rem;
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,87 @@
+.header {
+    background-color: black;
+    width: 100%;
+    height: 35px;
+    color: #d3d3d3;
+    padding-bottom: 10px;
+
+    &-red {
+        padding-bottom: 13px;
+        display: flex;
+    }
+
+    &-icon {
+        cursor: pointer;
+        color: red;
+        // padding-left: 195px;
+        // padding-top: 13px;
+        font-size: 13px;
+    }
+
+    &-call {
+        cursor: pointer;
+        color: red;
+        padding-top: 10px;
+        padding-left: 600px;
+    }
+
+    &-letter {
+        cursor: pointer;
+        color: red;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+
+    span {
+        font-weight: 500;
+        padding-top: 9px;
+        padding-left: 8px;
+        font-size: 13px;
+        
+    }
+
+    &-info {
+        color: #d3d3d3;
+        display: inline-block;
+        margin: 0;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    &-info::after {
+        display: block;
+        content: '';
+        border-bottom: solid 1px #d3d3d3;
+        transform: scaleX(0);
+        transition: transform 400ms ease-in-out;
+    }
+
+    &-info:hover:after {
+        transform: scaleX(1);
+    }
+
+    &-black {
+        background-color: #fd3c3d;
+        padding: 8px 0;
+        display: flex;
+    }
+
+    &-image {
+        padding-left: 200px;
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        padding-left: 38px;
+        font-weight: 700;
+        font-size: 12px;
+        cursor: pointer;
+        color: white;
+    }
+
+    &-list {
+        padding-top: 13px;
+        padding-left: 30px;
+    }
+}

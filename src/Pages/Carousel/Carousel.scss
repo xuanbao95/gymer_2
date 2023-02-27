@@ -1,0 +1,31 @@
+.carousel {
+       width: 77%;
+       margin: 0 auto;
+    &-image {
+        &-MMA {
+            height: 410px;
+            background-color: #fd3c3d;
+            border: 1px solid black;
+            img {
+                background-image: black;
+                width: 410px;
+            }
+            p {
+                cursor: pointer;
+                padding: 10px;
+                text-align: center;
+                color: white;
+                font-size: 20px;
+            }
+
+            h2{
+                cursor: pointer;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+        }
+    }
+   
+
+}
