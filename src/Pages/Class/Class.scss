@@ -4,6 +4,9 @@
         margin:  0 auto;
         width: 80%;
         text-align: center;
+        .slick-slide{
+            margin: 0 5px;
+        }
     }
     &-title{
         font-size: 50px;
@@ -14,6 +17,9 @@
     }
    &-option{
     background-color: rgb(120, 114, 114);
+    img{
+        width: 100%;
+    }
    }
     
 }

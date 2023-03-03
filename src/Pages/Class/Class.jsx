@@ -9,6 +9,7 @@ export default class Class extends Component {
       slidesToShow: 3,
       slidesToScroll: 1,
        autoplaySpeed: 30000,
+       centerPadding:"50px",
     };
     return (
       <div className='classes'>
