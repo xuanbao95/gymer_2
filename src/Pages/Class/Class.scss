@@ -1,25 +1,71 @@
-.classes{
-    background-image: url("https://vtcoder-html4.surge.sh/images/service-bg.jpg") ;
-    &-all{
-        margin:  0 auto;
-        width: 80%;
+.classes {
+    background-image: url("https://vtcoder-html4.surge.sh/images/service-bg.jpg");
+    &-all {
+        color: white;
+        margin: 0 auto;
+        width: 75%;
         text-align: center;
-        .slick-slide{
-            margin: 0 5px;
+
+        .slick-slide {
+            padding-left: 20px;
         }
     }
-    &-title{
-        font-size: 50px;
+    &-title {
+        h2 {
+            position: relative;
+
+            &::after {
+                position: absolute;
+                right: 490px;
+                display: block;
+                content: "";
+                border-bottom: solid 3px #8d8d8d;
+                transition: transform 250ms ease-in-out;
+                width: 45px;
+                bottom: -10px;
+            }
+        }
+        font-size: 40px;
         padding: 30px;
         text-align: center;
         color: #fd3c3d;
-        
     }
-   &-option{
-    background-color: rgb(120, 114, 114);
-    img{
-        width: 100%;
+    &-option {
+        height: 655px;
+        background-color: #181a1f;
+        position: relative;
+        img {
+            width: 100%;
+        }
+        &::after {
+            content: '';
+            border-right: 3px solid #fd3c3d;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            opacity: 0;
+        }
+        &:hover::after {
+            opacity: 1;
+            transition: 1s;
+        }
     }
-   }
-    
+    &-price {
+        color: #fd3c3d;
+        padding-top: 30px;
+    }
+    &-choose {
+        font-weight: 400;
+        color: white;
+        border-bottom: 0.5px solid #2d2e33;
+        padding-bottom: 15px;
+    }
+    &-name{
+        padding-bottom: 10px;
+        border-bottom: 0.5px solid #2d2e33;
+    }
+    &-time{
+        padding-top: 10px;
+    }
 }
