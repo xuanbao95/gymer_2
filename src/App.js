@@ -1,17 +1,19 @@
 import logo from "./logo.svg";
-import "./App.css";
 import Carousel from "./Pages/Carousel/Carousel";
 import HeaderPage from "./Pages/HeaderPages/HeaderPage";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import SliderPage from "./Pages/SliderPage/SliderPage";
+import Class from "./Pages/Class/Class";
 
 function App() {
   return (
     <div>
-      <HeaderPage />
+      {/* <HeaderPage />
       <SliderPage />
       <Carousel />
-      <AboutUs />
+      <AboutUs /> */}
+      <Class />
+      
     </div>
   );
 }
