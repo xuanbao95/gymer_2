@@ -1,0 +1,19 @@
+.classes{
+    background-image: url("https://vtcoder-html4.surge.sh/images/service-bg.jpg") ;
+    &-all{
+        margin:  0 auto;
+        width: 80%;
+        text-align: center;
+    }
+    &-title{
+        font-size: 50px;
+        padding: 30px;
+        text-align: center;
+        color: #fd3c3d;
+        
+    }
+   &-option{
+    background-color: rgb(120, 114, 114);
+   }
+    
+}
