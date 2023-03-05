@@ -1,0 +1,46 @@
+.sale {
+    background-color: #fd3c3d;
+    display: flex;
+    color: white;
+
+    &-left {
+        padding-top: 20px;
+        padding-left: 150px;
+    }
+
+    &-right {
+        position: relative;
+        h3 {
+            font-size: 30px;
+            font-weight: 400;
+        }
+        h1{
+            font-weight: 500;
+            font-size: 90px;
+        }
+        padding-top: 100px;
+        padding-left: 50px;
+    }
+    &-off{
+        top: 230px;
+        position: absolute;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 300px;
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+    a{
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        border: 2px solid white;
+        padding: 12px 40px 12px 40px;
+        &:hover{
+            background-color: white;
+            color: #fd3c3d;
+            transition: 1s;
+        }
+    }
+}
