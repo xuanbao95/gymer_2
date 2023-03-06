@@ -4,6 +4,7 @@ import HeaderPage from "./Pages/HeaderPages/HeaderPage";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import SliderPage from "./Pages/SliderPage/SliderPage";
 import Class from "./Pages/Class/Class";
+import Sale from "./Pages/Sale/Sale";
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
       <SliderPage />
       <Carousel />
       <AboutUs /> */}
-      <Class />
-      
+      {/* <Class /> */}
+      <Sale />
     </div>
   );
 }
